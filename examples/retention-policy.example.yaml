@@ -1,0 +1,15 @@
+policy_name: standard-production
+keep:
+  last: 3
+  daily: 7
+  weekly: 4
+  monthly: 12
+  yearly: 3
+operations:
+  prune_schedule: "daily 03:30"
+  garbage_collection: "Sun 05:00"
+  verify_new_snapshots: true
+  full_reverify_days: 30
+protection:
+  critical_month_end_snapshots: manual-approval
+  offsite_sync_before_local_prune_review: true

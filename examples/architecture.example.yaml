@@ -1,0 +1,21 @@
+sites:
+  primary:
+    pve_clusters: [pve-prod]
+    pbs: pbs-primary.example.invalid
+    datastore: fast-backup
+    network: backup-vlan-120
+  offsite:
+    pbs: pbs-offsite.example.invalid
+    mode: pull-sync
+    datastore: offsite-copy
+objectives:
+  tier_1:
+    rpo_hours: 4
+    rto_hours: 8
+  tier_2:
+    rpo_hours: 24
+    rto_hours: 24
+security:
+  admin_mfa: required
+  api_tokens: separated_per_cluster
+  public_management: false

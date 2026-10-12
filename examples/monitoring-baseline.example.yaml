@@ -1,0 +1,16 @@
+checks:
+  - name: datastore_usage
+    warning_percent: 75
+    critical_percent: 85
+  - name: last_backup_age
+    warning_hours: 26
+    critical_hours: 48
+  - name: verification_failures
+    critical_if_greater_than: 0
+  - name: sync_job_failures
+    critical_if_greater_than: 0
+  - name: smart_or_zfs_health
+    critical_on_nonhealthy: true
+notifications:
+  daily_summary: operations@example.invalid
+  critical: oncall@example.invalid
