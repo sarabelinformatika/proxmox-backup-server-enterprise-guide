@@ -8,7 +8,7 @@
 ![Version](https://img.shields.io/badge/Version-4.x-333333?style=flat-square)
 ![Scope](https://img.shields.io/badge/Scope-Enterprise%20Backup-005A9C?style=flat-square)
 ![Method](https://img.shields.io/badge/Method-Design%20%7C%20Protect%20%7C%20Verify-00897B?style=flat-square)
-[![Release](https://img.shields.io/github/v/release/sarabelinformatika/proxmox-backup-server-enterprise-guide?style=flat-square&label=release)](https://github.com/sarabelinformatika/proxmox-backup-server-enterprise-guide/releases)
+[![Release](https://img.shields.io/badge/release-v1.0.0-0086C9?style=flat-square)](https://github.com/sarabelinformatika/proxmox-backup-server-enterprise-guide/releases/tag/v1.0.0)
 [![License](https://img.shields.io/github/license/sarabelinformatika/proxmox-backup-server-enterprise-guide?style=flat-square)](LICENSE)
 
 A production-oriented design, security, recovery, and operating guide for Proxmox Backup Server (PBS). It covers sizing, storage, ZFS, datastore layout, Proxmox VE integration, retention, prune, garbage collection, verification, off-site synchronization, encryption, ransomware resistance, monitoring, tape, restore testing, and incident response.
